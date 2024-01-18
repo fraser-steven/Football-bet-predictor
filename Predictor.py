@@ -111,7 +111,7 @@ def match_prediction(home_team, away_team, params, max_goals=10):
     
     return probability_matrix
 
-#probs = match_prediction('Man United', 'Liverpool', model_params, 4)
-#pprint(probs)
+probs = match_prediction('Man United', 'Liverpool', model_params, 4)
+pprint(probs)
 
 pprint(model_params)
